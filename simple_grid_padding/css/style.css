@@ -1,0 +1,32 @@
+html, body {
+  margin: 20px 0 0 0;
+  background: #232323;
+  color: #ffffff;
+}
+
+.wrapper {
+  min-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 1px solid #ff0
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.wrapper .col {
+  width: 8.333%;
+  padding: 0 15px;
+  border: 1px solid #ffffff;
+  min-height: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.wrapper .col div {
+  background-color: #777777;
+  min-height: inherit;
+}
